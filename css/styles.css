@@ -125,7 +125,7 @@ h1 {
 
 #cpone{
 	background-color:#fdd835;
-	height: 76px;
+	height:  7.916667%;
 	width: 960;
 	text-align:center;
 	font-weight:bold;
@@ -137,7 +137,8 @@ h1 {
 	
 	display: inline-block;
 	margin: 20px;
-	overflow:auto;
+	overflow:;
+	max-width:100%;
 	
 	}
 
@@ -175,11 +176,51 @@ h1 {
 
 
 #cpthree{
-	color:green;
+	color:white;
+	background-color:#20bbe7;
+	max-width:100%;
+	height: 153px;
 	}
+
+#cpthree input{
+	background-color:#35c1e9;
+	border: none;
+	
+	}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+
+
+	
+#cpthree button{
+	color:white;
+	background-color: black;
+	border: none;
+	}	
+	
 	
 #cpfour{
-	color:blue;
+	color:white;
+	background-image:url("../images/cpfour/home.jpg");
+	height: 1002px;
+	text-align: center;
+	
+#cpfour button{
+	background-color: green;
 	}
 	
 #cpfive{
