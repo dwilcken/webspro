@@ -1,0 +1,140 @@
+body {
+	background-color: #696b96;
+	background-image: url("http://www.transparenttextures.com/patterns/dark-wood.png");
+	width:;
+	
+   }
+    
+
+#header{
+ 	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	font-family: 'Playfair Display', serif;
+	color:white;
+	height: 75px;
+	text-align: right;
+	background-color: #ffffff;
+	background-image: url("http://www.transparenttextures.com/patterns/stressed-linen.png");
+}
+
+
+#bio {
+	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	}
+
+
+
+
+h1 {
+	margin-right:20px;
+	}
+
+#main{
+	margin-top: 30px;
+	color:white;
+ 	height:.41666667%;
+ 	width:;
+}
+
+
+#myface{	
+	margin-left:10.426667%;
+	margin-top: 10px;
+	
+	}    
+#boutme{
+	margin-top: 10px;
+	
+	}
+	
+#comp1{
+	background-color: #857d5d;
+	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
+	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	color:white;
+ 	height:300px;
+ 	width:;
+ 	margin-top:50px;
+}
+#cp1{
+	margin-left:20px;
+	}
+
+#comp2{
+	background-color: #bcbdd1;
+	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
+	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	color:white;
+ 	height:500px;
+ 	width:;
+ 	margin-top:50px;
+}
+
+#comp2 h4{
+	color:#857D5D;
+	}
+
+
+
+#comp3{
+	background-color: #857d5d;
+	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
+	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	color:white;
+ 	height:300px;
+ 	width:;
+ 	margin-top:50px;
+}
+
+#comp4{
+	background-color: #bcbdd1;
+	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
+	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	color:white;
+ 	height:300px;
+ 	width:;
+ 	margin-top:50px;
+}
+#comp4 h4{
+	color:#857D5D;
+	}
+
+
+
+#comp5{
+	background-color: #857d5d;
+	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
+	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+ 	height:300px;
+ 	width:;
+ 	margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
