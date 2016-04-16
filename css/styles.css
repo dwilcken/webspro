@@ -1,8 +1,8 @@
 body {
 	background-color: #696b96;
 	background-image: url("http://www.transparenttextures.com/patterns/dark-wood.png");
-	width:;
-	
+	width:1200px;
+	margin:auto;
    }
     
 
@@ -39,6 +39,32 @@ h1 {
  	width:;
 }
 
+#mainbutton {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #myface{	
 	margin-left:10.426667%;
@@ -53,6 +79,7 @@ h1 {
 #comp1{
 	background-color: #857d5d;
 	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
+
 	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
@@ -64,6 +91,18 @@ h1 {
 #cp1{
 	margin-left:20px;
 	}
+	
+#comp1 img{
+	width: 1200px;
+	height: 100px;
+	}	
+	
+	
+	
+	
+	
+	
+	
 
 #comp2{
 	background-color: #bcbdd1;
@@ -72,10 +111,19 @@ h1 {
 	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	color:white;
- 	height:500px;
+ 	height:550px;
  	width:;
  	margin-top:50px;
 }
+
+#comp2 img{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+
+
 
 #comp2 h4{
 	color:#857D5D;
@@ -91,9 +139,22 @@ h1 {
 	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	color:white;
  	height:300px;
- 	width:;
+ 	
  	margin-top:50px;
 }
+
+
+#comp3 img{
+	width: 1200px;
+	height: 150px;
+	}
+
+
+
+
+
+
+
 
 #comp4{
 	background-color: #bcbdd1;
@@ -102,13 +163,22 @@ h1 {
 	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	color:white;
- 	height:300px;
+ 	height:400px;
  	width:;
  	margin-top:50px;
 }
 #comp4 h4{
 	color:#857D5D;
 	}
+
+#comp4 img{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+
+
 
 
 
@@ -118,15 +188,30 @@ h1 {
 	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
- 	height:300px;
+ 	height:400px;
  	width:;
  	margin-top:50px;
 }
 
+
+
+#comp5 img{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+
+
+
+
+
+
+
 #cpone{
 	background-color:#fdd835;
 	height:  7.916667%;
-	width: 960;
+	max-width: 100%;
 	text-align:center;
 	font-weight:bold;
 	font-size: 13pt;
@@ -160,15 +245,105 @@ h1 {
 
 
 #cptwo{
-	color:red;
-	display:;
-	position: center;
-	display: block:
+	color:white;
 	}
 
 #cptwo img{
-	display: inline-block:
+	display: none:
 	}
+
+.imgone {
+	background-image: url("../images/cptwo/cptwo_one.jpg");
+	background-size:cover;
+	float:left;
+	width: 329.328px;
+	height: 212.219px;
+	max-width:100%;
+	max-height:100%;
+	}
+#cptwo h1{
+	position: relative;
+    left: 10px;
+    top: 80px;
+	}
+#cptwo h2{
+	position: relative;
+    left: 50px;
+    top: 25px;
+	}	
+#cptwo h3{
+	position: relative;
+    left: 10px;
+    top: 5px;
+    font-size: 25pt;
+	}
+
+
+
+
+
+
+	
+		
+.imgtwo {
+	background-image: url("../images/cptwo/cptwo_two.jpg");
+	background-size:cover;
+	float:left;
+	width: 329.328px;
+	height: 212.219px;
+	max-width:100%;
+	max-height:100%;
+	}
+.imgthree {
+	background-image: url("../images/cptwo/cptwo_three.jpg");
+	background-size:cover;
+	float:left;
+	width: 329.328px;
+	height: 212.219px;
+	max-width:100%;
+	max-height:100%;
+	}
+.imgfour {
+	background-image: url("../images/cptwo/cptwo_four.jpg");
+	background-size:cover;
+	float:left;
+	width: 329.328px;
+	height: 212.219px;
+	max-width:100%;
+	max-height:100%;
+	}
+.imgfive {
+	background-image: url("../images/cptwo/cptwo_five.jpg");
+	background-size:cover;
+	float:left;
+	width: 329.328px;
+	height: 212.219px;
+	max-width:100%;
+	max-height:100%;
+	}
+.imgsix {
+	background-image: url("../images/cptwo/cptwo_six.jpg");
+	background-size:cover;
+	float:left;
+	width: 329.328px;
+	height: 212.219px;
+	max-width:100%;
+	max-height:100%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -178,13 +353,25 @@ h1 {
 #cpthree{
 	color:white;
 	background-color:#20bbe7;
-	max-width:100%;
+	width:1200px;
 	height: 153px;
+	
 	}
+
+#cpthree ul li{
+	display:inline-block;
+	}
+	
+.listy ul li:nth-child (2n+1){
+	font-weight: 200pt;
+	}	
+	
+	
 
 #cpthree input{
 	background-color:#35c1e9;
 	border: none;
+
 	
 	}
 
@@ -212,6 +399,18 @@ h1 {
 	border: none;
 	}	
 	
+
+
+
+
+
+
+
+
+
+
+
+
 	
 #cpfour{
 	color:white;
@@ -222,20 +421,35 @@ h1 {
 #cpfour button{
 	background-color: green;
 	}
-	
+
+
+
 #cpfive{
-	color:orange;
-	}			
+	background-color:#fdd835;
+	height:  7.916667%;
+	width: 960;
+	text-align:center;
+	font-weight:bold;
+	font-size: 13pt;
+	}
 
 
 
+a:link {
+    text-decoration: none;
+}
 
+a:visited {
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: none;
+}
 
-
-
-
-
+a:active {
+    text-decoration: none;
+}
 
 
 
