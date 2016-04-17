@@ -355,7 +355,7 @@ h1 {
 	background-color:#20bbe7;
 	width:1200px;
 	height: 153px;
-	
+	font-family: 'Open Sans';
 	
 	
 	}
@@ -363,7 +363,10 @@ h1 {
 	font-size: 50pt;
 	position: relative;
     left: 10px;
-    top: 40px;
+    top: 30px;
+    margin-left: 50px;
+    letter-spacing: 10px;
+    font-weight: 900;
 	}
 
 
@@ -376,9 +379,9 @@ h1 {
 	border: none;
 	position: relative;
     left: 600px;
-    bottom: 60px;
+    bottom: 80px;
 	height: 44px;
-    width:300px;
+    width:350px;
 	}
 
 ::-webkit-input-placeholder {
@@ -405,7 +408,7 @@ h1 {
 	border: none;
 	position: relative;
     left: 600px;
-    bottom: 60px;
+    bottom: 80px;
     height: 45px;
     width:150px;
     margin-left: 10px;
