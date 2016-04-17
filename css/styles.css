@@ -356,23 +356,29 @@ h1 {
 	width:1200px;
 	height: 153px;
 	
+	
+	
+	}
+#cpthree h1{
+	font-size: 50pt;
+	position: relative;
+    left: 10px;
+    top: 40px;
 	}
 
-#cpthree ul li{
-	display:inline-block;
-	}
-	
-.listy ul li:nth-child (2n+1){
-	font-weight: 200pt;
-	}	
-	
+
+
+
 	
 
 #cpthree input{
 	background-color:#35c1e9;
 	border: none;
-
-	
+	position: relative;
+    left: 600px;
+    bottom: 60px;
+	height: 44px;
+    width:300px;
 	}
 
 ::-webkit-input-placeholder {
@@ -397,6 +403,12 @@ h1 {
 	color:white;
 	background-color: black;
 	border: none;
+	position: relative;
+    left: 600px;
+    bottom: 60px;
+    height: 45px;
+    width:150px;
+    margin-left: 10px;
 	}	
 	
 
