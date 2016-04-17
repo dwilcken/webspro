@@ -462,6 +462,8 @@ h1 {
 	color:white;
 	background-image:url("../images/cpfour/home.jpg");
 	background-size:cover;
+	
+	
 	width: 1200px;
 	max-width:100%;
 	max-height:100%;
@@ -473,26 +475,48 @@ h1 {
 #cpfour h1{
 	position: relative;
     top: 100px;
+    font-weight:bold;
+    font-size: 50pt;
 	}	
 
 #cpfour h2{
 	position: relative;
     top: 120px;
+    font-size: 30pt;
 	}	
 	
 #cpfour button{
-	background-color: green;
+	background-color: #76bf58;
 	position: relative;
     top: 140px;
+	border: none;
+    height: 45px;
+    width:150px;
+  
 	}
 
 
+	
 
-#test{
-	color:red;
+#cpfive{
+	background-color: #333132;
 	}
+	
+#cpfive h1{
+	color:#3ea0c7;
+	}	
 
+#cpfive h2{
+	color:#6d6e71;
+	}	
 
+#cpfive ul li{
+	color:#939598;
+	}	
+
+#menucolumn ul li{
+	color:white;
+	}
 
 
 
