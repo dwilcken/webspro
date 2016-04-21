@@ -142,7 +142,7 @@ h1 {
 	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	color:white;
- 	height:550px;
+ 	height:1250px;
  	width:;
  	margin-top:50px;
 }
@@ -288,39 +288,6 @@ h1 {
 
 
 
-#cptwo{
-	color:white;
-	}
-
-#cptwo img{
-	display: none:
-	}
-
-.imgone {
-	background-image: url("../images/cptwo/cptwo_one.jpg");
-	background-size:cover;
-	float:left;
-	width: 329.328px;
-	height: 212.219px;
-	max-width:100%;
-	max-height:100%;
-	}
-#cptwo h1{
-	position: relative;
-    left: 10px;
-    top: 80px;
-	}
-#cptwo h2{
-	position: relative;
-    left: 50px;
-    top: 25px;
-	}	
-#cptwo h3{
-	position: relative;
-    left: 10px;
-    top: 5px;
-    font-size: 25pt;
-	}
 
 
 
@@ -329,53 +296,6 @@ h1 {
 
 	
 		
-.imgtwo {
-	background-image: url("../images/cptwo/cptwo_two.jpg");
-	background-size:cover;
-	float:left;
-	width: 329.328px;
-	height: 212.219px;
-	max-width:100%;
-	max-height:100%;
-	}
-.imgthree {
-	background-image: url("../images/cptwo/cptwo_three.jpg");
-	background-size:cover;
-	float:left;
-	width: 329.328px;
-	height: 212.219px;
-	max-width:100%;
-	max-height:100%;
-	}
-.imgfour {
-	background-image: url("../images/cptwo/cptwo_four.jpg");
-	background-size:cover;
-	float:left;
-	width: 329.328px;
-	height: 212.219px;
-	max-width:100%;
-	max-height:100%;
-	}
-.imgfive {
-	background-image: url("../images/cptwo/cptwo_five.jpg");
-	background-size:cover;
-	float:left;
-	width: 329.328px;
-	height: 212.219px;
-	max-width:100%;
-	max-height:100%;
-	}
-.imgsix {
-	background-image: url("../images/cptwo/cptwo_six.jpg");
-	background-size:cover;
-	float:left;
-	width: 329.328px;
-	height: 212.219px;
-	max-width:100%;
-	max-height:100%;
-	}
-
-
 
 
 
@@ -550,6 +470,81 @@ h1 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+#cptwo html{
+    font-size: 62.5%;
+}
+#cptwo body{
+    padding: 0;
+    margin: 0;
+}
+#cptwo section{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#cptwo article{
+    width: 33.33%;
+    height: 212.219px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    
+}
+#cptwo h3{
+    color: #FFFFFF;
+    line-height: 3rem;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 8rem 2rem 1rem 2rem;
+}
+#cptwo h3::before{
+    content: "88 ";
+    position: relative;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 900;
+    top: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -.3rem;
+}
+#cptwo h1{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 2rem 2rem 2rem;
+}
+
+
+
+
+#cptwo article:nth-child(1){       background-image: url("../images/cptwo/cptwo_one.jpg");
+							background-size:cover;}
+#cptwo article:nth-child(2){       background-image: url("../images/cptwo/cptwo_two.jpg");  
+							background-size:cover;}
+#cptwo article:nth-child(3){       background-image: url("../images/cptwo/cptwo_three.jpg");
+							background-size:cover;}
+#cptwo article:nth-child(4){       background-image: url("../images/cptwo/cptwo_four.jpg");  
+							background-size:cover;}
+#cptwo article:nth-child(5){       background-image: url("../images/cptwo/cptwo_five.jpg");  
+							background-size:cover;}
+#cptwo article:nth-child(6){       background-image: url("../images/cptwo/cptwo_six.jpg");  
+							background-size:cover;}
+
+
+
+		
 
 
 
