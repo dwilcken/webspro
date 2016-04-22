@@ -19,11 +19,35 @@ header{
 }
 
 
-#bio {
+
+
+article{
 	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	}
+
+#components article:nth-of-type(odd){
+	background-color: #857d5d;
+	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
+	}
+
+#components article:nth-of-type(even){
+	background-color: #bcbdd1;
+	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
+	}
+
+
+
+
+
+
+
+
+
+
+#bio {
+	
 
 
 
@@ -108,12 +132,9 @@ h1 {
 	}
 	
 #comp1{
-	background-color: #857d5d;
-	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
+	
 
-	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
-	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	
 	color:white;
  	height:300px;
  	width:;
@@ -136,11 +157,8 @@ h1 {
 	
 
 #comp2{
-	background-color: #bcbdd1;
-	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
-	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
-	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	
+	
 	color:white;
  	height:1250px;
  	width:;
@@ -163,12 +181,8 @@ h1 {
 
 
 #comp3{
-	background-color: #857d5d;
-	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
-	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
-	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
-	color:white;
+	
+	
  	height:350px;
  	
  	margin-top:50px;
@@ -188,11 +202,8 @@ h1 {
 
 
 #comp4{
-	background-color: #bcbdd1;
-	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
-	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
-	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+
+
 	color:white;
  	height:400px;
  	width:;
@@ -214,11 +225,8 @@ h1 {
 
 
 #comp5{
-	background-color: #857d5d;
-	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
-	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
-	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+
+
  	height:450px;
  	width:;
  	margin-top:50px;
@@ -231,324 +239,4 @@ h1 {
 	margin-left:auto;
 	margin-right:auto;
 	}
-
-
-
-
-
-
-
-
-#cpone{
-	background-color:#fdd835;
-	height:  7.916667%;
-	max-width: 100%;
-	text-align:left;
-	font-weight:bold;
-	font-size: 13pt;
-	
-	
-	}
-#cpone ul li{
-	
-	display: inline-block;
-	margin: 15px;
-	position: relative;
-    top: 12px;
-	max-width:100%;
-	
-	}
-
-#cpone ul li img{
-	margin-left: 10px;
-	}
-
-
-#cpone input{
-	
-	border: none;
-	position: relative;
-    left: px;
-    bottom: px;
-	height: 44px;
-    width:200px;
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#cpthree{
-	color:white;
-	background-color:#20bbe7;
-	width:1200px;
-	height: 153px;
-	font-family: 'Open Sans';
-	
-	
-	}
-#cpthree h1{
-	font-size: 50pt;
-	position: relative;
-    left: 10px;
-    top: 30px;
-    margin-left: 50px;
-    letter-spacing: 10px;
-    
-	}
-
-
-
-
-	
-
-#cpthree input{
-	background-color:#35c1e9;
-	border: none;
-	position: relative;
-    left: 600px;
-    bottom: 80px;
-	height: 44px;
-    width:350px;
-	}
-
-::-webkit-input-placeholder {
-   color: white;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: white;  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: white;  
-}
-
-:-ms-input-placeholder {  
-   color: white;  
-}
-
-
-	
-#cpthree button{
-	color:white;
-	background-color: black;
-	border: none;
-	position: relative;
-    left: 600px;
-    bottom: 80px;
-    height: 45px;
-    width:150px;
-    margin-left: 10px;
-	}	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-	
-#cpfour{
-	color:white;
-	background-image:url("../images/cpfour/home.jpg");
-	background-size:cover;
-	
-	
-	width: 1200px;
-	max-width:100%;
-	max-height:100%;
-	height: 1002px;
-	text-align:center;
-	}
-	
-	
-#cpfour h1{
-	position: relative;
-    top: 100px;
-    font-weight:bold;
-    font-size: 50pt;
-	}	
-
-#cpfour h2{
-	position: relative;
-    top: 120px;
-    font-size: 30pt;
-	}	
-	
-#cpfour button{
-	background-color: #76bf58;
-	position: relative;
-    top: 140px;
-	border: none;
-    height: 45px;
-    width:150px;
-  
-	}
-
-
-	
-
-#cpfive{
-	background-color: #333132;
-	}
-	
-#cpfive h1{
-	color:#3ea0c7;
-	}	
-
-#cpfive h2{
-	color:#6d6e71;
-	}	
-
-#cpfive ul li{
-	color:#939598;
-	}	
-#menucolumn{
-	position: relative;
-    left: 320px;
-    bottom:140px;
-    }
-#menucolumn ul li{
-	color:white;
-	}
-
-#socialcolumn{
-	position: relative;
-    left: 620px;
-    bottom:240px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#cptwo html{
-    font-size: 62.5%;
-}
-#cptwo body{
-    padding: 0;
-    margin: 0;
-}
-#cptwo section{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-#cptwo article{
-    width: 33.33%;
-    height: 212.219px;
-    padding: 0;
-    margin: 0;
-    float: left;
-    
-}
-#cptwo h3{
-    color: #FFFFFF;
-    line-height: 3rem;
-    font-size: 1rem;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    margin: 8rem 2rem 1rem 2rem;
-}
-#cptwo h3::before{
-    content: "88 ";
-    position: relative;
-    color: #FFFFFF;
-    font-size: 2.5rem;
-    font-weight: 900;
-    top: 0.5rem;
-    font-family: "Roboto", sans-serif;
-    letter-spacing: -.3rem;
-}
-#cptwo h1{
-    color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    margin: 1rem 2rem 2rem 2rem;
-}
-
-
-
-
-#cptwo article:nth-child(1){       background-image: url("../images/cptwo/cptwo_one.jpg");
-							background-size:cover;}
-#cptwo article:nth-child(2){       background-image: url("../images/cptwo/cptwo_two.jpg");  
-							background-size:cover;}
-#cptwo article:nth-child(3){       background-image: url("../images/cptwo/cptwo_three.jpg");
-							background-size:cover;}
-#cptwo article:nth-child(4){       background-image: url("../images/cptwo/cptwo_four.jpg");  
-							background-size:cover;}
-#cptwo article:nth-child(5){       background-image: url("../images/cptwo/cptwo_five.jpg");  
-							background-size:cover;}
-#cptwo article:nth-child(6){       background-image: url("../images/cptwo/cptwo_six.jpg");  
-							background-size:cover;}
-
-
-
-		
-
-
-
-
-
-
 
