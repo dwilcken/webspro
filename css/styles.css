@@ -1,7 +1,7 @@
 body {
 	background-color: #696b96;
 	background-image: url("http://www.transparenttextures.com/patterns/dark-wood.png");
-	
+	color:white;
    }
     
 
@@ -10,20 +10,18 @@ header{
 	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	font-family: 'Playfair Display', serif;
-	color:white;
 	height: 75px;
 	text-align: right;
 	background-color: #ffffff;
 	background-image: url("http://www.transparenttextures.com/patterns/stressed-linen.png");
+	margin-bottom: 40px;
 }
-
-
-
 
 article{
 	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	padding-bottom: 20px;
 	}
 
 #components article:nth-of-type(odd){
@@ -36,37 +34,36 @@ article{
 	background-image: url("http://www.transparenttextures.com/patterns/concrete-wall-3.png");
 	}
 
-img {
+article img {
 	max-width:100%;
+	
 	}
 
 h1 {
 	margin-right:20px;
 	}
-
-
+h4{
+	font:  bold 2.5em/1.2 Arial, sans-serif;
+	}
+h5{
+	font-size: 1.5em;
+	}
 article li {
-	
     text-transform: uppercase;
     text-decoration: none;
     list-style:none;
-    
+    text-align:center;
+    margin-top:30px;
 	}
 
-a {
+article a {
 	text-decoration:none;
 	background-image: url("http://www.transparenttextures.com/patterns/stressed-linen.png");
 	padding: 1rem;
+	-webkit-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
+	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	}
 
 
-#myface{	
-	margin-left:10.426667%;
-	margin-top: 10px;
-	
-	}    
-#boutme{
-	margin-top: 10px;
-	
-	}
 	
