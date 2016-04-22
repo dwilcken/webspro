@@ -1,4 +1,6 @@
 
+
+
 #cpfive{
 	background-color: #333132;
 	}
@@ -23,9 +25,9 @@
 	color:white;
 	}
 
-#socialcolumn{
-	position: relative;
-    left: 620px;
-    bottom:240px;
-    }
 
+
+
+i {
+	color:red;
+	}
