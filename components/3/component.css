@@ -1,0 +1,68 @@
+
+
+
+#cpthree{
+	color:white;
+	background-color:#20bbe7;
+	width:1200px;
+	height: 153px;
+	font-family: 'Open Sans';
+	
+	
+	}
+#cpthree h1{
+	font-size: 50pt;
+	position: relative;
+    left: 10px;
+    top: 30px;
+    margin-left: 50px;
+    letter-spacing: 10px;
+    
+	}
+
+
+
+
+	
+
+#cpthree input{
+	background-color:#35c1e9;
+	border: none;
+	position: relative;
+    left: 600px;
+    bottom: 80px;
+	height: 44px;
+    width:350px;
+	}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+
+
+	
+#cpthree button{
+	color:white;
+	background-color: black;
+	border: none;
+	position: relative;
+    left: 600px;
+    bottom: 80px;
+    height: 45px;
+    width:150px;
+    margin-left: 10px;
+	}	
+	
+
