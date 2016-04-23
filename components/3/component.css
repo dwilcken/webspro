@@ -1,38 +1,55 @@
-
-
-
-#cpthree{
+body{
 	color:white;
 	background-color:#20bbe7;
-	width:1200px;
-	height: 153px;
 	font-family: 'Open Sans';
 	
-	
 	}
-#cpthree h1{
-	font-size: 50pt;
-	position: relative;
-    left: 10px;
-    top: 30px;
-    margin-left: 50px;
+h1{
+	font-size: 50px;
+    margin-left: 100px;
     letter-spacing: 10px;
+    text-transform:uppercase;
     
 	}
 
+section{
+	float:left;
+	margin-right:20px;
+	}
 
-
-
+li {
+	list-style-type: none;
 	
+	}
+	
+.button li{
+	padding-top: 50px;
+	}
+	
+		
+a:link{
+	text-decoration:none;
+	background-color: black;
+	padding: 10px 60px 10px 60px;
+	color:white;
+	font-weight:bold;
+	 letter-spacing: 2px;
+	}	
+	
+	
+a:hover{
+	background-color:#3AD2FD;
+	}
 
-#cpthree input{
+a:visited{
+	color:white;
+	}	
+	
+input{
 	background-color:#35c1e9;
 	border: none;
-	position: relative;
-    left: 600px;
-    bottom: 80px;
-	height: 44px;
-    width:350px;
+	padding: 15px 200px 15px 0px;
+	margin-top:40px;
 	}
 
 ::-webkit-input-placeholder {
@@ -52,17 +69,5 @@
 }
 
 
-	
-#cpthree button{
-	color:white;
-	background-color: black;
-	border: none;
-	position: relative;
-    left: 600px;
-    bottom: 80px;
-    height: 45px;
-    width:150px;
-    margin-left: 10px;
-	}	
 	
 

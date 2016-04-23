@@ -2,33 +2,38 @@
 body{
 	color:white;
 	background-image:url("../4/images/home.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 	font-family: "PT Sans",sans-serif;
 	text-transform:uppercase; 
 	text-align:center;
+	font-weight:bold;
 	}
 	
 	
 h1{
-	position: relative;
-    top: 100px;
-    font-weight:bold;
-    font-size: 36px;
+    font-size: 40px;
     line-height: 1.07em;
+    letter-spacing:2px;
+    word-spacing: 1px;
 	}	
 
 h2{
-	position: relative;
-    top: 120px;
-    font-size: 30pt;
-    line-height: 1.07em;
+    font-size: 28px;
+    line-height: 1.07;
+    font-weight:normal;
 	}	
 
-
+li{
+	list-style-type: none;
+	margin-top: 80px
+	}	
  li a{
 	background-color:#333132;
-	padding: 10px 10px 10px 10px;
+	padding: 18px 45px 18px 45px;
 	border: 1px solid #6d6e71;
-	list-style-type: none;
+	
 	background-color: #76bf58;
 	border: none;
   	text-decoration: none;
