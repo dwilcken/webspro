@@ -6,7 +6,7 @@ body{
 	margin: 0;
     vertical-align: top;
     font-family: "PT Sans",sans-serif;
-    padding: 20px 20px 20px 20px;
+    padding: 1.250em 1.250em 1.250em 1.250em;
 	}
 	
 h1{
@@ -15,22 +15,20 @@ h1{
     line-height: 1.73;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-left: 100px;
-    margin-bottom: 60px;
-    margin-top: 40px;
+    margin: 40px 0 60px 100px;
+    
 	}	
 
 h2{
 	color:#6d6e71;
-	margin-left: 38px;
-	margin-bottom: 50px;
+	margin: 0 0 50px 38px;
 	}	
 	
 h3 {
 	font-size: 1.3em;
 	font-weight:500;
-	margin-left: 40px;
-	margin-top: 60px;
+	margin: 60px 0 0 40px;
+
 	}
 
 
@@ -41,8 +39,7 @@ ul {
 	}
 section{
 	float:left;
-	margin-left: 60px;
-	margin-right: 60px;
+	margin:0 60px 0 60px;
 	}
 
 #social ul li{
