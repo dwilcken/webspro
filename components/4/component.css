@@ -2,9 +2,8 @@
 body{
 	color:white;
 	background-image:url("../4/images/home.jpg");
-	background-size:cover;
 	font-family: "PT Sans",sans-serif;
-
+	text-transform:uppercase; 
 	text-align:center;
 	}
 	
@@ -14,22 +13,28 @@ h1{
     top: 100px;
     font-weight:bold;
     font-size: 36px;
-    line-height: 1.07;
+    line-height: 1.07em;
 	}	
 
 h2{
 	position: relative;
     top: 120px;
     font-size: 30pt;
+    line-height: 1.07em;
 	}	
-	
-button{
-	background-color: #76bf58;
-	position: relative;
-    top: 140px;
-	border: none;
-    height: 45px;
-    width:150px;
-  
-	}
 
+
+ li a{
+	background-color:#333132;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #6d6e71;
+	list-style-type: none;
+	background-color: #76bf58;
+	border: none;
+  	text-decoration: none;
+  	color:white;
+  	border-radius: 5px;
+	}
+a:hover{
+	background-color:#92dc72;	
+	}
