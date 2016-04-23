@@ -6,6 +6,7 @@ body{
 	margin: 0;
     vertical-align: top;
     font-family: "PT Sans",sans-serif;
+    padding: 20px 20px 20px 20px;
 	}
 	
 h1{
@@ -26,8 +27,10 @@ h2{
 	}	
 	
 h3 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight:500;
+	margin-left: 40px;
+	margin-top: 60px;
 	}
 
 
@@ -48,6 +51,7 @@ section{
 	}
 
 
+
 a {
     text-decoration: none;
 }
@@ -55,7 +59,9 @@ a {
 h3 a:link{
 	color:#FFF;
 	}
-
+h3 a:visited{
+	color:#FFF;
+	}
 h3 a:hover{
 	color:#3ea0c7;
 	}
@@ -79,14 +85,14 @@ h3 a:hover{
 .contact ul li:nth-child(4) a:link { 
     color:#FFF;
 }
-.contact ul li:nth-child(4) a:hover { 
-    color:#3ea0c7;
-}
+
 
 .contact ul li:nth-child(4) a:visited{ 
     color:#FFF;
 }
-
+.contact ul li:nth-child(4) a:hover { 
+    color:#3ea0c7;
+}
 
 
 
@@ -95,14 +101,14 @@ h3 a:hover{
     color:#3ea0c7;
 }
 
-#menu ul li:nth-child(1) a:hover { 
-    color:#3ea0c7;
-}
 
 #menu ul li:nth-child(1) a:visited { 
     color:#3ea0c7;
 }
 
+#menu ul li:nth-child(1) a:hover { 
+    color:#3ea0c7;
+}
 
 
 
@@ -111,9 +117,28 @@ h3 a:hover{
 #menu ul li:nth-child(n+2) a:link { 
     color:#FFF;
 }
-#menu ul li:nth-child(n+2) a:hover { 
-    color:#3ea0c7;
-}
+
 #menu ul li:nth-child(n+2) a:visited { 
     color:#FFF;
 }
+#menu ul li:nth-child(n+2) a:hover { 
+    color:#3ea0c7;
+}
+
+
+#questions li a{
+	background-color:#333132;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #6d6e71;
+	}
+	
+#questions li a:link{
+	color:#FFF;
+	}	
+#questions li a:visited{
+	color:#FFF;
+	}	
+#questions li a:hover{
+	background-color:#3ea0c7;
+	}	
+	
