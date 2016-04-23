@@ -44,9 +44,11 @@ h1 {
 	}
 h4{
 	font:  bold 2.5em/1.2 Arial, sans-serif;
+	padding:20px 0px 0px 40px;
 	}
 h5{
 	font-size: 1.5em;
+	padding:0px 0px 0px 40px;
 	}
 article li {
     text-transform: uppercase;
@@ -65,5 +67,6 @@ article a {
 	box-shadow: 10px 25px 52px -6px rgba(0,0,0,0.75);
 	}
 
-
-	
+p{
+	padding: 0px 0px 0px 50px;
+}

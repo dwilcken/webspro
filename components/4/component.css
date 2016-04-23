@@ -1,32 +1,29 @@
 	
-#cpfour{
+body{
 	color:white;
 	background-image:url("../4/images/home.jpg");
 	background-size:cover;
-	
-	
-	width: 1200px;
-	max-width:100%;
-	max-height:100%;
-	height: 1002px;
+	font-family: "PT Sans",sans-serif;
+
 	text-align:center;
 	}
 	
 	
-#cpfour h1{
+h1{
 	position: relative;
     top: 100px;
     font-weight:bold;
-    font-size: 50pt;
+    font-size: 36px;
+    line-height: 1.07;
 	}	
 
-#cpfour h2{
+h2{
 	position: relative;
     top: 120px;
     font-size: 30pt;
 	}	
 	
-#cpfour button{
+button{
 	background-color: #76bf58;
 	position: relative;
     top: 140px;
