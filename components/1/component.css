@@ -1,34 +1,33 @@
-section{
+body{
+	margin:auto;
 	background-color:#fdd835;
+	}
+
+section{
+	
 	height:  7.916667%;
-	max-width: 100%;
-	text-align:left;
 	font-weight:bold;
-	font-size: 13pt;
-	
-	
+	font-size: 20px;
+	float:left;
+	text-transform:uppercase;
 	}
-#cpone ul li{
+
+
 	
+li{
+	
+	
+	margin: px;
 	display: inline-block;
-	margin: 15px;
-	position: relative;
-    top: 12px;
-	max-width:100%;
-	
 	}
 
-#cpone ul li img{
-	margin-left: 10px;
+img{
+	height: 20px;
 	}
 
 
-#cpone input{
-	
+input{
+	width:175px;
 	border: none;
-	position: relative;
-    left: px;
-    bottom: px;
-	height: 44px;
-    width:200px;
+    height: 30px;
 	}
