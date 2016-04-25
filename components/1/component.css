@@ -1,33 +1,29 @@
-body{
+nav{
 	margin:auto;
 	background-color:#fdd835;
-	}
-
-section{
-	
-	height:  7.916667%;
+	text-transform:uppercase;
 	font-weight:bold;
 	font-size: 20px;
-	float:left;
-	text-transform:uppercase;
 	}
-
 
 	
 li{
-	
-	
-	margin: px;
+
 	display: inline-block;
+	padding: 20px 30px 20px 0px;
+	
 	}
 
 img{
 	height: 20px;
+	padding-left:20px;
 	}
-
-
-input{
-	width:175px;
-	border: none;
-    height: 30px;
-	}
+	
+a:link{
+	color:green:
+	text-decoration: none;
+	}	
+a:visited{
+	color:;
+	text-decoration: none;
+	}	
